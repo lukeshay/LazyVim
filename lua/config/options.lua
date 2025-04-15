@@ -15,3 +15,4 @@ end
 vim.api.nvim_command([[
     autocmd ModeChanged * lua leave_snippet()
 ]])
+vim.opt.backupcopy = "yes"
