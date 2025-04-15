@@ -37,6 +37,7 @@ local user = os.getenv("USER") or os.getenv("USERNAME")
 if user == "luke.shay" then
   vim.list_extend(spec, {
     { import = "lazyvim.plugins.extras.lang.angular" },
+    { import = "lazyvim.plugins.extras.lang.python" },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
   })
