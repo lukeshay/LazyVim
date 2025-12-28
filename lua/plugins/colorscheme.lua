@@ -48,10 +48,11 @@ return {
       vim.o.background = "light" -- or "dark"
     end,
   },
+  { "projekt0n/github-nvim-theme", name = "github-theme" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "github_dark",
     },
   },
 }
